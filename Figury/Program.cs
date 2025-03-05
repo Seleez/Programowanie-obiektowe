@@ -23,7 +23,6 @@ namespace Figury{
             Console.WriteLine("___________________________________");
         }
     }
-
     class Cuboid : Figury
     {
         public double a { get; set; }
@@ -74,7 +73,6 @@ namespace Figury{
         }
         public new void Display()
         {
-
             Console.WriteLine($"Radius: {this.r} Height: {this.h} Length: {this.l}");
             base.Display();
         }
