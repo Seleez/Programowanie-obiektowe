@@ -45,6 +45,8 @@ namespace Refleksja
                 Console.Write($"{propety.Name}: {propety.GetValue(obj)}:");
                 string JSON = JsonSerializer.Serialize(obj);
                 Console.WriteLine(JSON);
+                //var Normal = JsonSerializer.Deserialize<string>(JSON);
+                //Console.WriteLine(Normal);
 
             }
             
