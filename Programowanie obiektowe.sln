@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorfizm", "Polimorfizm\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typy generyczne", "ConsoleApp1\Typy generyczne.csproj", "{75327EDD-368D-476C-9CD1-DE7124A32DF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refleksja", "Refleksja\Refleksja.csproj", "{0E653587-1BA8-4BA6-BF86-10AE9BE7ACAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{75327EDD-368D-476C-9CD1-DE7124A32DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75327EDD-368D-476C-9CD1-DE7124A32DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75327EDD-368D-476C-9CD1-DE7124A32DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E653587-1BA8-4BA6-BF86-10AE9BE7ACAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E653587-1BA8-4BA6-BF86-10AE9BE7ACAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E653587-1BA8-4BA6-BF86-10AE9BE7ACAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E653587-1BA8-4BA6-BF86-10AE9BE7ACAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
