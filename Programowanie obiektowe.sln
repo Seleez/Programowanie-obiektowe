@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typy generyczne", "ConsoleA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refleksja", "Refleksja\Refleksja.csproj", "{0E653587-1BA8-4BA6-BF86-10AE9BE7ACAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrubut_refleksja", "Atrubut_refleksja\Atrubut_refleksja.csproj", "{AD0706ED-7664-4024-97B3-3B490A3A8025}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{0E653587-1BA8-4BA6-BF86-10AE9BE7ACAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E653587-1BA8-4BA6-BF86-10AE9BE7ACAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E653587-1BA8-4BA6-BF86-10AE9BE7ACAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0706ED-7664-4024-97B3-3B490A3A8025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0706ED-7664-4024-97B3-3B490A3A8025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0706ED-7664-4024-97B3-3B490A3A8025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0706ED-7664-4024-97B3-3B490A3A8025}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
