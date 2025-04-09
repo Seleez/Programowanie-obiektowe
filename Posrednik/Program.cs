@@ -32,35 +32,42 @@ namespace Posrednik
     {
         Car GetCarById(int id);
         List<Car> GetAll();
-        void Create(int id, string brand, string model, int year, string engine, string power);
+        void Create(Car car);
         void Delete(int id);
+        void Update(Car car);
 
     }
     public class RealDatabase: IDatabase
     {
-       List<Car> cars = new List<Car> { 
+       private List<Car> cars { get; set; } = new List<Car> { 
             new Car(1, "BMW", "A1", 2020, "V16", "1200HP"),
             new Car(2, "toyota", "yaris", 2013, "V16", "600HP"),
             new Car(3, "Audi", "X69", 1969, "V69", "6969HP"),
             new Car(4, "BMW", "A2137", 2137, "V2137", "21137HP"),
        };
 
-        Car GetCarById(int id)
+        public Car GetCarById(int id)
         {
-            return cars[id];
+            return cars.Find(x => x.Id == id);
         }
-        List<Car> GetAll()
+        public List<Car> GetAll()
         {
             return cars;
         }
-        void Create(int id, string brand, string model, int year, string engine, string power)
+        public void Create(Car car)
         {
-            var auto = new Car(id, brand, model, year, engine, power);
-            cars.Add(auto);
+            cars.Add(car);
         }
-        void Delete(int id) { 
+        public void Delete(int id) { 
             cars.RemoveAt(id);
         }
+        public 3void Update(Car car)
+        {
+            var dbCar = GetCarById(car.Id);
+            if (car == null)
+            {
+                Console.WriteLine("Nie ma takiej opcji");
+            }
 
     }
 
