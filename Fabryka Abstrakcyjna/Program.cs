@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Fabryka_Abstrakcyjna.WindowsUI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace Fabryka_Abstrakcyjna
     {
         static void Main(string[] args)
         {
+            ApplicationUI app = new ApplicationUI(new WebUIFactory());
+            app.CreateUI();
         }
     }
 }

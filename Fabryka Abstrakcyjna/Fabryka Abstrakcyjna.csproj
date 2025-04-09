@@ -43,11 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationUI.cs" />
+    <Compile Include="Interfaces\IButton.cs" />
+    <Compile Include="Interfaces\ITextBox.cs" />
+    <Compile Include="Interfaces\IUIFactory.cs" />
+    <Compile Include="MacUI\MacButton.cs" />
+    <Compile Include="MacUI\MacTextBox.cs" />
+    <Compile Include="MacUI\MacUIFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebUI\WebButton.cs" />
+    <Compile Include="WebUI\WebTextBox.cs" />
+    <Compile Include="WebUI\WebUIFactory.cs" />
+    <Compile Include="WindowsUI\WindowsTextBox.cs" />
+    <Compile Include="WindowsUI\WindowsButton.cs" />
+    <Compile Include="WindowsUI\WindowsUIFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

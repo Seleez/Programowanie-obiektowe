@@ -8,5 +8,7 @@ namespace Fabryka_Abstrakcyjna.Interfaces
 {
     public interface IUIFactory
     {
+        IButton CreateButton();
+        ITextBox CreateTextBox();
     }
 }
