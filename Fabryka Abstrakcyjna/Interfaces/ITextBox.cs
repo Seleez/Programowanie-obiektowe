@@ -8,6 +8,6 @@ namespace Fabryka_Abstrakcyjna.Interfaces
 {
     public interface ITextBox
     {
-
+        void Render();
     }
 }

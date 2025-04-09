@@ -8,5 +8,6 @@ namespace Fabryka_Abstrakcyjna.Interfaces
 {
     public interface IButton
     {
+        void Render();
     }
 }
